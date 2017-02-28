@@ -22,7 +22,7 @@ body {
 }
 
 .third-width {
-    width: 28%;
+    width: 29.5%;
     float: left;
 	height: 210px;
 	padding-top: 30px;
@@ -42,7 +42,10 @@ header {
 
 img {
 	height: 300px;
+	width: 100%;
 	clear: both;
+	border: 2px solid #77a466;
+	margin: 1% 0;
 }
 
 h1 {
@@ -76,7 +79,8 @@ nav ul li a {
 /*WELCOME section*/
 
 main #welcome {
-	height: 175px;
+	height: 150px;
+	clear: both;
 }
 
 #welcome h2 {
@@ -107,7 +111,7 @@ main #welcome {
 
 #details .specials-list {
 	font-size: 16px;
-	line-height: 18px;	
+	line-height: 30px;	
 	padding-left: 0;
 }
 
@@ -149,6 +153,14 @@ footer {
 	font-size: 16px;
 	line-height: 23px;	
 	text-align: center;
-	padding-top: 35px;
+	padding-top: 10px;
 	padding-bottom: 0;
+}
+
+footer span {
+	font-family: 'League Script', cursive;
+	color: #77a466;
+	text-transform: lowercase;
+	font-size: 24px;
+	font-weight: 700;
 }
