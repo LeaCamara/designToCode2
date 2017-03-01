@@ -22,11 +22,12 @@ body {
 }
 
 .third-width {
-    width: 29.5%;
+    width: 29%;
     float: left;
 	height: 210px;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	margin: 0 auto;
 }
 
 h1, h2, h3, footer {
@@ -41,10 +42,12 @@ header {
 }
 
 img {
-	height: 300px;
+	height: auto;
 	width: 100%;
+	/* if width is 100%, height should be auto */
 	clear: both;
-	border: 2px solid #77a466;
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
 	margin: 1% 0;
 }
 
